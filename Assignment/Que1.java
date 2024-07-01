@@ -9,7 +9,7 @@ public class Que1 {
         int c = sc.nextInt();
       
       
-        System.out.println((a + b + c) / 3);
+        System.out.println("Average of a b and c is " + (a + b + c) / 3);
 
 
     }
