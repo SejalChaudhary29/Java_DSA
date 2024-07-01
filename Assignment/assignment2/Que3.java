@@ -1,0 +1,12 @@
+package Assignment.assignment2;
+
+public class Que3 {
+    public static void main(String[] args){
+        int x, y, z;
+        x = y = z = 2;
+        x += y;
+        y -= z;
+        z /= (x + y);
+        System.out.println(x + " " + y + " " + z);
+    }}
+    // Amswer 4 , 0 , 0
