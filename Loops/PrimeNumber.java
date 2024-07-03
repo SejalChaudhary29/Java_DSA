@@ -11,6 +11,7 @@ public class PrimeNumber {
         } else {
 
             boolean isPrime = true;
+            // for more optimization use for (int i = 2; i <= Math.sqrt(n); i++)
             for (int i = 2; i <= n - 1; i++) {
                 if (n % i == 0) {
                     isPrime = false;
