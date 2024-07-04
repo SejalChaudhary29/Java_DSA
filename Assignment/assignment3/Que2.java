@@ -29,4 +29,4 @@ public class Que2 {
         System.out.println("Sum of odd numbers: " + oddSum);
         
     }
-   
+}
