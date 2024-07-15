@@ -1,11 +1,12 @@
 package Function;
 
 public class FunctionalOverloading {
+    // sum of 2
     public static int sum(int a , int b){
     return a+b;
     
     }
-
+//sum of 3
     public static int sum(int a , int b , int c){
     return a+b+c;
 
