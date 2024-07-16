@@ -3,7 +3,7 @@ package Function;
 public class Isprime {
     public static boolean isPrime(int n ) {
         boolean isPrime = true;
-        for (int i=2; i <=n-1; i++) {
+        for (int i=2; i<=Math.sqrt(n); i++) {
             if ( n % i == 0) {
                 isPrime = false;
                 
@@ -13,7 +13,7 @@ public class Isprime {
     }
     public static void main(String[] args) {
         System.out.println(
-            isPrime(9)
+            isPrime(4)
         );
     }
 }
