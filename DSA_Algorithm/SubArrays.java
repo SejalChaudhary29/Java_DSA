@@ -12,7 +12,7 @@ public class SubArrays {
                 ts++;
             }
         }
-        System.out.println("the total space is :" + ts);
+        System.out.println("the total subarrays is :" + ts);
     }
 
     public static void main(String[] args) {
