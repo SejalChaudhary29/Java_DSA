@@ -1,6 +1,7 @@
 package DSA_Algorithm;
 
 public class BuyandSellStocks {
+    //tc = O(n)
     public static int BuySellStock(int prices[]){
 
         int buyingprice = Integer.MAX_VALUE;
