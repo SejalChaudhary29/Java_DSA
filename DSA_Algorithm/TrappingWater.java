@@ -6,8 +6,8 @@ public class TrappingWater {
     public static int trappedWater(int height[]) {
      // creating auxilliary array(helping array)
         // calculate left max boundary - array
-        // leftMax = [ 4 , 4 , 4 , 6 , 6 , 6 ,6]
-        int n = height.length;
+        // leftMa x = [ 4 , 4 , 4 , 6 , 6 , 6 ,6]
+        int n = height.length; 
         int leftMax[] = new int[n];
         leftMax[0] = height[0];
         for (int i = 1; i < n; i++) {
