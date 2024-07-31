@@ -2,7 +2,7 @@ package DSA_Algorithm;
 
 public class SelectionSort {
     public static void Selection_Sort(int arr[]){
-
+// tc = O(n);
              for (int i = 0; i < arr.length-1; i++) {//turns
                 int minPosition = i;
                 for (int j = i+1; j < arr.length; j++) {
