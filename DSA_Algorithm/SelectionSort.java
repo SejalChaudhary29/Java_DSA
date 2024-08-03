@@ -3,13 +3,14 @@ package DSA_Algorithm;
 public class SelectionSort {
     public static void Selection_Sort(int arr[]){
 // tc = O(n);
-             for (int i = 0; i <= arr.length-1; i++) {//turns
+           int n = arr.length;
+             for (int i = 0; i <= n-2; i++) {//turns
                 int minPosition = i;
-                for (int j = i; j <= arr.length-1; j++) {
+                for (int j = i; j <= n-1; j++) {
                     if(arr[minPosition] > arr[j]){
                         minPosition = j;
                     }
-                }
+                } 
                 
                 int temp = arr[minPosition];
                 arr[minPosition] = arr[i];
