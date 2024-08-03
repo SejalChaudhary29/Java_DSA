@@ -1,6 +1,7 @@
 package DSA_Algorithm;
 
 public class BubbleSort {
+    // TC = O(n^2)
     public static int bubbleSort(int arr[]) {
         int swapCount = 0; // Initialize swap counter
 
