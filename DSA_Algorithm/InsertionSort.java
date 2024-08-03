@@ -3,14 +3,17 @@ package DSA_Algorithm;
 public class InsertionSort {
     public static void Insertion(int arr[]){
 
-        for (int i = 1; i < arr.length; i++) {
-            int curr = arr[i];
-            int prev = i-1;
-            while (prev >= 0 && arr[prev] >curr) {
-                arr[prev+1] = arr[prev];
-                prev--;
+        for (int i = 0; i <= arr.length-1; i++) {
+            int j = i;
+            
+            while (j > 0 && arr[j-1] >arr[j]) {
+                // arr[prev+1] = arr[prev];
+                int temp =  arr[j-1];
+                arr[j-1] = arr[j];
+                arr[j] = temp;
+                j--;
             }
-            arr[prev+1] = curr;
+            // arr[prev+1] = curr;
             
         }
     }
