@@ -5,7 +5,7 @@ public class BubbleSort {
     // for  optimization we can add checks of didSwap O(n)
     public static void bubbleSort(int arr[]) {
         
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i <= arr.length - 1; i++) {
             int didSwap = 0; // Initialize swap counter
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
