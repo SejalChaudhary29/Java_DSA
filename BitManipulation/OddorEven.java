@@ -11,7 +11,7 @@ public class OddorEven {
         }
           }
           public static void main(String[] args) {
-            oddEven(9);//odd
+            oddEven(9);//odd Number
             oddEven(2);//even
             oddEven(19);//odd
           }
