@@ -2,6 +2,7 @@ package BitManipulation;
 
 public class GetIthBit {
     public static int GetIthBit(int n, int i) {
+        // get ith bit  operations check wether the ith bit in Number is "1" or "0"
         int BitMask = 1 << i;
 
         if ((n & BitMask) == 0) {
@@ -12,6 +13,6 @@ public class GetIthBit {
     }
 
     public static void main(String[] args) {
-System.out.println(GetIthBit(8 , 2));
+System.out.println(GetIthBit(8 , 2));// 0
     }
 }
