@@ -7,6 +7,8 @@ public class SetIthBit {
         return n | BitMask;
     }
     public static void main(String[] args) {
+        // 10 => 1010 => 0001 (1<<2)=> 0100
+        // 1010 | 0100 => 1110
         System.out.println(SetIthBit(10, 2));//14
     }
 }
