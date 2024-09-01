@@ -13,6 +13,8 @@ public class GetIthBit {
     }
 
     public static void main(String[] args) {
+        // 8 => 1000 , 1=> 0001, (1<<2)=> 0100 
+        // 1000 & 0100=> 0000
 System.out.println(GetIthBit(8 , 2));// 0
     }
 }
